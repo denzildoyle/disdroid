@@ -23,7 +23,7 @@ li{ list-style: none; }
 
 .spinner{
     float: right;
-    margin: 14px 30px 0 0;
+    margin: 14px 20px 0 0;
 }
 
 .spinner li{
@@ -38,11 +38,11 @@ li{ list-style: none; }
     margin-bottom: 0;
 }
 
-.spinner-menue{
+.spinner-menu{
     position: absolute;
     top: 55px;
     right: 10px;
-    width: 270px;
+    width: 220px;
     background-color: #e4e4e4;
     border: 1px solid #d8d8d8;
     -moz-border-radius: 0 0 3px 3px;
@@ -51,15 +51,16 @@ li{ list-style: none; }
     -khtml-border-radius: 0 0 3px 3px;
     
     box-shadow: 3px 1px 14px rgba( 0, 0, 0,  .3);
+    display: none;
 }
 
-.spinner-menue li{
+.spinner-menu li{
     border-top: 2px solid #cbcbcb;
     padding: 20px;
     font-weight: 300;
 }
 
-.spinner-menue li:first-child{
+.spinner-menu li:first-child{
     border: none;
     padding: 20px
 }
