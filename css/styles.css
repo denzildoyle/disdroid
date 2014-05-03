@@ -18,20 +18,20 @@ li{ list-style: none; }
     background-color: #e5e5e5;
     border-bottom: 2px solid #d9d9d9;
     width: 100%;
-    height: 53px;
+    height: 46px;
 }
 
 .spinner{
     float: right;
-    margin: 14px 20px 0 0;
+    margin: 12px 20px 0 0;
 }
 
 .spinner li{
     display: block;
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     background-color: #696969;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .spinner li:last-child{
@@ -55,7 +55,7 @@ li{ list-style: none; }
 }
 
 .spinner-menu li{
-    border-top: 2px solid #cbcbcb;
+    border-top: 1px solid #cbcbcb;
     padding: 16px 20px;
     font-weight: 300;
 }
