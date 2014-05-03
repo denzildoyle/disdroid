@@ -1,3 +1,3 @@
 $(".spinner").click(function() {
-  $( ".spinner-menu" ).fadeIn();
+    $( ".spinner-menu" ).fadeIn();
 });
