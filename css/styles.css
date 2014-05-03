@@ -16,14 +16,14 @@ li{ list-style: none; }
 
 .header{
     background-color: #e5e5e5;
-    border-bottom: 2px solid #d9d9d9;
+    border-bottom: 2px solid #c7c7c7;
     width: 100%;
-    height: 46px;
+    height: 48px;
 }
 
 .spinner{
     float: right;
-    margin: 12px 20px 0 0;
+    margin: 14px 22px 0 0;
 }
 
 .spinner li{
@@ -40,7 +40,7 @@ li{ list-style: none; }
 
 .spinner-menu{
     position: absolute;
-    top: 55px;
+    top: 49px;
     right: 10px;
     width: 200px;
     background-color: #e4e4e4;
