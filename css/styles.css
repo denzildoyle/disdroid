@@ -1,4 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+
 *{
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -33,4 +36,30 @@ li{ list-style: none; }
 
 .spinner li:last-child{
     margin-bottom: 0;
+}
+
+.spinner-menue{
+    position: absolute;
+    top: 66px;
+    right: 10px;
+    width: 270px;
+    background-color: #e4e4e4;
+    border: 1px solid #d8d8d8;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    -khtml-border-radius: 0 0 3px 3px;
+    
+    box-shadow: 3px 1px 14px rgba( 0, 0, 0,  .3);
+}
+
+.spinner-menue li{
+    border-top: 2px solid #cbcbcb;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.spinner-menue li:first-child{
+    border: none;
+    padding: 20px
 }
